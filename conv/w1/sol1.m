@@ -18,7 +18,7 @@ B = [
 ]';
 Dy = spdiags(B, [0, 1], h, h);
 
-% Apply operators on the image
+% Apply operators to the image
 f_x = img * Dx;
 f_y = Dy * img;
 
